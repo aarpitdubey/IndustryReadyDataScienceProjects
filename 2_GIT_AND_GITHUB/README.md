@@ -128,15 +128,9 @@ let's see how it will works:
 
 ## How to create a new branch ? (creating a developer branch)
 
-<br>
-
 7. ### ```git branch <branch_name> :``` 
     - We can create the new branch (or) developer of project repository using ```git branch <branch_name> (OR) git branch developer```.
-<br>
-    
+
     here we can see how it will work
-<br>
 
-    ![](./images/gif_files/8_git_branch_branch_name_to_create_new_branch.gif)
-
-    
+    ![create the new branch (or) developer](./images/gif_files/8_git_branch_branch_name_to_create_new_branch.gif)
