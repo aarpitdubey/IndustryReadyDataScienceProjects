@@ -125,4 +125,26 @@ let's see how it will works:
     here we can see how it will work:
 
     ![Changing the branch](./images/gif_files/7_git_branch_M_branchName_command_to_change_branch.gif)
-    
+
+## How to create a new branch ? (creating a developer branch)
+
+7. ### ```git branch <branch_name> :``` 
+    - We can create the new branch (or) developer of project repository using ```git branch <branch_name> (OR) git branch developer```.
+
+    here we can see how it will work
+
+
+    ![create the new branch (or) developer](./images/gif_files/7_git_branch_M_branchName_command_to_change_branch.gif)
+
+<br>
+
+8. ### ```git checkout <branch_name> :```
+- Allows you to switch between branches or restore working directory files. To change branch from main to developer 
+have to use ```git checkout developer```.<br><br>
+here we can see how it will work
+
+
+
+
+
+    ![](./images/gif_files/8_git_checkout_branch_name_to_switch_branch.gif)
