@@ -134,3 +134,9 @@ let's see how it will works:
     here we can see how it will work
 
     ![create the new branch (or) developer](./images/gif_files/8_git_branch_branch_name_to_create_new_branch.gif)
+
+<br>
+
+8. ### ```git checkout <branch_name> :```
+- Allows you to switch between branches or restore working directory files. To change branch from main to developer 
+have to use ```git checkout developer```.
