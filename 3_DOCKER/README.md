@@ -45,6 +45,8 @@ We have Developer-1 and Developer-2
 
 - Quality Assurance (QA) team also fails to run the application because of that missed or failed installation. This leads to conflict between Developers and QA Team. For resolving this conflicts Google introduce docker.
 
+![](./images/normal_files/2_Docker_image_and_containers_used_in_different_servers_providing_same_compatible_env.png)
+
 ## Here are some commonly used Docker commands:
 
 1. ### ```docker run :``` Runs a command in a new container.
