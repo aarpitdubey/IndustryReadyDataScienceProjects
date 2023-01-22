@@ -116,3 +116,13 @@ let's see how it will works:
 <br>
 
 ![](./images/normal_img_files/1_commit_and_push_git_command.PNG)
+
+## How to change the branch of your project repositary?
+
+6. ### ```git branch -M <branch_name> :```
+    - We can change the branch of project repository using ```git branch -M <branch to branch_name>``` or to change from Master branch to main branch ```git branch -M main```.
+
+    here we can see how it will work:
+
+    ![Changing the branch](./images/gif_files/7_git_branch_M_branchName_command_to_change_branch.gif)
+    
