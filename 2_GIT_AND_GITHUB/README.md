@@ -33,4 +33,4 @@
 
 How to create repositories in Github, let's see:
 
-![](./images/1_creating_repo_in_Github.gif)
+![Creating repo in Github](./images/1_creating_repo_in_Github.gif)
