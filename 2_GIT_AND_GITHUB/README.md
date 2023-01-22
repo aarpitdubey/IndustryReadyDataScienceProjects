@@ -143,8 +143,4 @@ let's see how it will works:
 have to use ```git checkout developer```.<br><br>
 here we can see how it will work
 
-
-
-
-
     ![](./images/gif_files/8_git_checkout_branch_name_to_switch_branch.gif)
