@@ -96,3 +96,14 @@ let us see how to configure:
 let's see how it will work with single/multiple files:
 
 ![git add command](./images/5_git_add_single_and_multiple_files_command.gif)
+
+<br>
+
+Now, you learn how to create repositories, checking status and, how to add those files and changes <br> now, it's time to learn how we can commit changes and push it to Github.
+
+<br>For commiting any changes or files in your repositary there is git command:
+
+
+4. ### ```git commit -m "<Pass some message>" :``` This command is use to commit the changes/modification <br>you had done in your project repositary.
+
+let's see how it will work:
