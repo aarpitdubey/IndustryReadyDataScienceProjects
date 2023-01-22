@@ -133,12 +133,11 @@ let's see how it will works:
 
     here we can see how it will work
 
-<<<<<<< HEAD
-    ![create the new branch (or) developer](./images/gif_files/8_git_branch_branch_name_to_create_new_branch.gif)
-=======
 
-    ![create the new branch (or) developer](./images/gif_files/7_git_branch_M_branchName_command_to_change_branch.gif)
->>>>>>> developer
+    ![create the new branch (or) developer](./images/gif_files/7_git_branch_branch_name_to_create_new_branch.gif)
+<br>
+
+>>>>>>> developer branch
 
 <br>
 
