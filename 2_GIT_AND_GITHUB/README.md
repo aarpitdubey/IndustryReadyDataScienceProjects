@@ -193,5 +193,5 @@ here we can see how it will work
 
 21. ### ```git clean :``` Removes untracked files and directories from the working directory.
 
-Now you can explore more and read the documentations.
+Now you can explore more and read the documentations.<br><br>
 Thank you.
