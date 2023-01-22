@@ -133,10 +133,73 @@ let's see how it will works:
 
     here we can see how it will work
 
+<<<<<<< HEAD
     ![create the new branch (or) developer](./images/gif_files/8_git_branch_branch_name_to_create_new_branch.gif)
+=======
+
+    ![create the new branch (or) developer](./images/gif_files/7_git_branch_M_branchName_command_to_change_branch.gif)
+>>>>>>> developer
 
 <br>
 
 8. ### ```git checkout <branch_name> :```
 - Allows you to switch between branches or restore working directory files. To change branch from main to developer 
+<<<<<<< HEAD
 have to use ```git checkout developer```.
+=======
+have to use ```git checkout developer```.<br><br>
+here we can see how it will work
+
+    ![](./images/gif_files/8_git_checkout_branch_name_to_switch_branch.gif)
+
+
+9. ### ```git pull :``` Fetches and merges changes from a remote repository to the local repository.
+
+10. ### ```git branch :``` Lists all branches in a repository, and highlights the current branch.
+
+## There are more git command which useful in daily life<br>a skillfull developer you can try those are given below:<br><br>
+
+11. ### ```git merge :``` Merges changes from one branch into another.
+<br>
+
+12. ### ```git log :``` Shows a log of commits on the current branch.
+
+<br>
+
+13. ### ```git diff :``` Shows the differences between the working directory, the staging area, and the most recent commit.
+
+<br>
+
+14. ### ```git show :``` Shows the details of a specific commit, such as the commit message and the changes made.
+
+<br>
+
+15. ### ```git stash :``` Temporarily saves changes that haven't been committed, so you can switch to a different branch.
+
+<br>
+
+16. ### ```git tag :``` Adds a tag to a specific commit, which can be used to mark a release or a significant change.
+
+<br>
+
+17. ### ```git fetch :``` Fetches changes from a remote repository, but doesn't merge them into the local repository.
+
+<br>
+
+18. ### ```git remote  :``` Shows a list of remote repositories that the local repository is connected to.
+
+<br>
+
+19. ### ```git config :``` Allows you to set configuration options for a repository, such as your user name and email.
+
+<br>
+
+20. ### ```git reset :``` Reverts commits and changes in the local repository.
+
+<br>
+
+21. ### ```git clean :``` Removes untracked files and directories from the working directory.
+
+Now you can explore more and read the documentations.<br><br>
+Thank you.
+>>>>>>> developer
