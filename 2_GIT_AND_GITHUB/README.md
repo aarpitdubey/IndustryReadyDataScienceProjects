@@ -85,3 +85,14 @@ let's see how :
 
 let us see how to configure:
 ![Configure globle username and email](./images/4_git_config_global_user_nameORemail.gif)
+
+3. ### Git command to add a new single or multiple files in project repositary:
+
+
+* ### ``` git add <FILE_NAME> : ``` It is use to add single specific file in project repositary.
+
+* ### ``` git add . : ``` It is use to add All the files which are added to the project repositary.
+
+let's see how it will work with single/multiple files:
+
+![git add command](./images/5_git_add_single_and_multiple_files_command.gif)
