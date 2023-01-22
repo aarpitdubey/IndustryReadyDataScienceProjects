@@ -42,7 +42,7 @@ Before jumping to CMD, you have to download the git software or distributed VCS 
 
 Step 1 :  Goto to your Project Directory and create a new folder and name it anything you want.
 
-Step 2 : I prefer VSCode Editor but you can choose any one of your choice. Open it with that folder, it the Text editor have terminal then it's good but if not then open CMD and change directory(using cd command) to your project directory and folder.
+Step 2 : I prefer VSCode Editor but you can choose any one of your choice. Open it with that folder, if the Text editor have terminal then it's good but if not then open CMD and change directory(using cd command) to your project directory and folder.
 
 Step 3 : In VSCode edtior, terminal is there but you can do the same from Command Prompt too. From the current working directory in CMD change to your project folder and type this command : ```git init``` 
 
