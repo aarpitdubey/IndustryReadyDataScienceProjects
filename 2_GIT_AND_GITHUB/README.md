@@ -51,4 +51,4 @@ let's see how :
 
 ![git ini command](./images/2_git_init_command.gif)
 
-2. ### ```git status :``` This command is used to check the status of your repository means it displays the state of the working directory and the staging.
+2. ### ```git status :``` This command is used to check the status of your repository means it displays the state of the working directory and the staging area.
