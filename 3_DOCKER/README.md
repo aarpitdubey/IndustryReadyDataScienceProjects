@@ -47,6 +47,22 @@ We have Developer-1 and Developer-2
 
 ![](./images/normal_files/2_Docker_image_and_containers_used_in_different_servers_providing_same_compatible_env.png)
 
+
+## Difference between Docker images and Docker containers :
+
+- A Docker image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files. Docker images are built from a series of layers, which are similar to snapshots. Each layer represents a command in the Dockerfile and its associated file system changes. This allows images to be built incrementally and reused, reducing the size of the final image.
+
+- A Docker container is a running instance of a Docker image. When you run a command like ```docker run <image>```, Docker creates a new container from the image and starts it. The container runs in an isolated environment, separate from the host system and other containers, but it has access to the host's resources, such as the network and the file system.
+
+![](./images/normal_files/3_relationship_between_docker_image_and_docker_container.png)
+
+
+- Each container can have different runtime and configuration settings, but they are all based on the same image. You can think of an image as a class and a container as an instance of that class.
+
+- You can also create multiple containers from the same image and run them simultaneously, each with its own isolated environment and resources.
+
+- Docker images are stored in a registry, such as Docker Hub, where they can be shared and reused by other users. You can also create your own images and share them on a registry or within your organization.
+
 ## Here are some commonly used Docker commands:
 
 1. ### ```docker run :``` Runs a command in a new container.
