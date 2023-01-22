@@ -19,11 +19,12 @@
 1. It saves time
 
 2. You can work offline then you can pull changes and push your changes.
-3.you can undo or revert changes
 
-3. you can be safe from mixing up things and creating multiple folders with names like "final", "final_part1", "final_part2", "final_part3", and so on.
+3. you can undo or revert changes
 
-4. Making useful commits with messages make you remind why you make these changes or for what? 
+4. you can be safe from mixing up things and creating multiple folders with names like "final", "final_part1", "final_part2", "final_part3", and so on.
+
+5. Making useful commits with messages make you remind why you make these changes or for what? 
 
 ## What is Github?
 
