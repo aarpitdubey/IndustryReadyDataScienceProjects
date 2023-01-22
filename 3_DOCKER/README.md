@@ -26,9 +26,24 @@
 
 - Docker images are built from a series of layers, which are similar to snapshots. Each layer represents a command in the Dockerfile and its associated file system changes. This allows images to be built incrementally and reused, reducing the size of the final image.
 
-### HOUSE REAL LIFE EXAMPLE for better understanding of the Docker, container, and image.
+### HOUSE REAL LIFE EXAMPLE for better understanding of the Docker, container, and image.<br><br>
 
 ![](./images/normal_files/1_house_example.png)
+
+<br>
+
+- It is the efficient way to move all items/containers from House-A to House-B, and If we have to move each item/container for eg. TV set one-by-one then it takes huge amount of efforts, time and a lot of travel round or operations if we carry each item and place them one-by-one to house-B.
+
+- In Similar way, we can imagine Docker as "the Movers and Packers team" (who pack your items into containers and put them into truck and move from one environment to another).
+
+- Lets look into example of two developers from development team.
+We have Developer-1 and Developer-2
+
+- Developer-1 try to install multiple packages and software applications in his system and all the packages and software installed successfully.
+
+- Developer-2 she also try to install all those packages and softwares which are installed by Developer-1 but one of the software application give error while installation, both are connected to the Dev Server but Application still running on the server but that application stop running in Developer-2 local system because she fails to provide the same/compatible environment for Application. 
+
+- Quality Assurance (QA) team also fails to run the application because of that missed or failed installation. This leads to conflict between Developers and QA Team. For resolving this conflicts Google introduce docker.
 
 ## Here are some commonly used Docker commands:
 
