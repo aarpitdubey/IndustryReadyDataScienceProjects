@@ -112,3 +112,7 @@ Now, you learn how to create repositories, checking status and, how to add those
 let's see how it will works:
 
 ![](./images/gif_files/6_git_commit_and_push_command.gif)
+
+<br>
+
+![](./images/normal_img_files/1_commit_and_push_git_command.PNG)
