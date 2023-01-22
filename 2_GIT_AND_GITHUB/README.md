@@ -106,4 +106,4 @@ Now, you learn how to create repositories, checking status and, how to add those
 
 4. ### ```git commit -m "<Pass some message>" :``` This command is use to commit the changes/modification <br>you had done in your project repositary.
 
-let's see how it will work:
+let's see how it will works:
