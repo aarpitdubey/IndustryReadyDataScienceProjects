@@ -8,9 +8,9 @@
 
 ## What is Git?
 
-- Git is a distributed version control system that allows developers and operations teams to collaborate and keep track pf the changes made on a project.
+- Git is a distributed version control system that allows developers and operations teams to collaborate and keep track of<br> the changes made on a project.
 
-- It is a software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during softwaredevelopment.
+- It is a software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively <br>developing source code during softwaredevelopment.
 
 - its primary goals includes speed, data security (SHA-256) and integrity.
 
@@ -22,7 +22,7 @@
 
 3. you can undo or revert changes
 
-4. you can be safe from mixing up things and creating multiple folders with names like "final", "final_part1", "final_part2", "final_part3", and so on.
+4. you can be safe from mixing up things and creating multiple folders with names like<br> "final", "final_part1", "final_part2", "final_part3", and so on.
 
 5. Making useful commits with messages make you remind why you make these changes or for what? 
 
@@ -34,7 +34,7 @@
 
 How to create repositories in Github, let's see:
 
-![Creating repo in Github](./images/1_creating_repo_in_Github.gif)
+![Creating repo in Github](./images/gif_files/1_creating_repo_in_Github.gif)
 
 Now, the same task we can do from CMD using Git commands.
 
@@ -42,22 +42,22 @@ Before jumping to CMD, you have to download the git software or distributed VCS 
 
 Step 1 :  Goto to your Project Directory and create a new folder and name it anything you want.
 
-Step 2 : I prefer VSCode Editor but you can choose any one of your choice. Open it with that folder, if the Text editor have terminal then it's good but if not then open CMD and change directory(using cd command) to your project directory and folder.
+Step 2 : I prefer VSCode Editor but you can choose any one of your choice. Open it with that folder, if the Text editor have terminal then <br>it's good but if not then open CMD and change directory(using cd command) to your project directory and folder.
 
-Step 3 : In VSCode edtior, terminal is there but you can do the same from Command Prompt too. From the current working directory in CMD change to your project folder and type this command : ```git init``` 
+Step 3 : In VSCode edtior, terminal is there but you can do the same from Command Prompt too. From the current working directory in<br> CMD change to your project folder and type this command : ```git init``` 
 
 1. ### ```git init :``` This command is use to create a new repository locally from CMD.
 let's see how : 
 
-![git ini command](./images/2_git_init_command.gif)
+![git ini command](./images/gif_files/2_git_init_command.gif)
 
 2. ### ```git status :``` This command is used to check the status of your repository means it displays the state of the working directory and the staging area.
 
-![git status command](./images/3_git_status_command.gif)
+![git status command](./images/gif_files/3_git_status_command.gif)
 
 ## Configure your Git username/email
 
-- You typically configure your global username and email address after installing Git. However, you can do so now if you missed that step or want to make changes. After you **set your global configuration**, repository-specific configuration is optional.
+- You typically configure your global username and email address after installing Git. However, you can do so now if you missed<br> that step or want to make changes. After you **set your global configuration**, repository-specific configuration is optional.
 
 
 ### To set your global username/email configuration:
@@ -84,7 +84,8 @@ let's see how :
 ```cat .git/config```
 
 let us see how to configure:
-![Configure globle username and email](./images/4_git_config_global_user_nameORemail.gif)
+
+![Configure globle username and email](./images/gif_files/4_git_config_global_user_nameORemail.gif)
 
 3. ### Git command to add a new single or multiple files in project repositary:
 
@@ -95,7 +96,7 @@ let us see how to configure:
 
 let's see how it will work with single/multiple files:
 
-![git add command](./images/5_git_add_single_and_multiple_files_command.gif)
+![git add command](./images/gif_files//5_git_add_single_and_multiple_files_command.gif)
 
 <br>
 
@@ -109,3 +110,5 @@ Now, you learn how to create repositories, checking status and, how to add those
 5. ### ```git push : ``` To push those commits to Github we need push command.
 
 let's see how it will works:
+
+![](./images/gif_files/6_git_commit_and_push_command.gif)
