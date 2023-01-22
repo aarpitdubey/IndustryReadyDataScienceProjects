@@ -159,6 +159,12 @@ here we can see how it will work
 ## There are more git command which useful in daily life<br>a skillfull developer you can try those are given below:<br><br>
 
 11. ### ```git merge :``` Merges changes from one branch into another.
+
+    - To merge a branch just type ```git merge <branch_name_with_whom_you_want_to_merge_your_current_branch>``` here I merge main branch to developer branch: ```git merge developer```
+<br>
+
+![](./images/normal_img_files/2_merging_of_main_and_developer_branch.PNG)
+
 <br>
 
 12. ### ```git log :``` Shows a log of commits on the current branch.
