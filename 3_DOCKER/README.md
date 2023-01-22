@@ -20,11 +20,15 @@
 
 > NOTE : A Docker container is a running instance of a Docker image. 
 
-What is Docker Image?
+## What is Docker Image?
 
 - An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
 
 - Docker images are built from a series of layers, which are similar to snapshots. Each layer represents a command in the Dockerfile and its associated file system changes. This allows images to be built incrementally and reused, reducing the size of the final image.
+
+### HOUSE REAL LIFE EXAMPLE for better understanding of the Docker, container, and image.
+
+![](./images/normal_files/1_house_example.png)
 
 ## Here are some commonly used Docker commands:
 
