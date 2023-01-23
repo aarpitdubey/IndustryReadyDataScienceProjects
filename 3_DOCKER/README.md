@@ -63,6 +63,50 @@ We have Developer-1 and Developer-2
 
 - Docker images are stored in a registry, such as Docker Hub, where they can be shared and reused by other users. You can also create your own images and share them on a registry or within your organization.
 
+![](./images/normal_files/4_Working_of_docker_image.png)
+
+**Base image :** The base image / base OS, where entire application can be run.
+It can be of Linux, ubuntu, windows according to the requirements.
+
+- In next layer, suppose we have to install python 3.7 -> it is called the sub-layer-image (or) sub-image (or) sub-sub-sub-part.
+
+- Similar, way other dependencies are set layer-by-layer or in sub-sub-sub layer.
+
+All the dependencies, set layer-by-layer and combine-ly called as Docker Image.
+
+- When we pass, this docker image to another developer then developer can run this docker image inside Host machine in the form of container, so, we can say Docker Image is an Artifact.
+
+- This container is running on the developer host machine and docker image run inside container.
+
+![](./images/normal_files/5_Difference_between_Docker_and_VM.png)
+
+<style type="text/css">
+.tg  {border-collapse:;border-spacing:0;}
+.tg td{border-color:#fff;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:#fff;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">DOCKER</th>
+    <th class="tg-0lax">VIRTUAL MACHINE</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">1. Docker uses the host OS kernel to interact with the hardware, but it can able to virtualize only the Application Layer entirely, because it doesn't have it's own OS kernel.</td>
+    <td class="tg-0lax">1. VM (Virtual Machine) has it's own Application Layer and OS kernel so, it will not uses Host Application Layer (or) Host OS kernel to interact with host hardware. That's why while installing VM, you need to allocate Ram and Hard disk memory, etc,.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2. Docker image is usually small in size(in MB). Docker is fast!</td>
+    <td class="tg-0lax">2. VM (Virtual Machine) is slow because the size of files are in GB, to large files as compare to Docker.</td>
+  </tr>
+</tbody>
+</table>
+
 ## Here are some commonly used Docker commands:
 
 1. ### ```docker run :``` Runs a command in a new container.
