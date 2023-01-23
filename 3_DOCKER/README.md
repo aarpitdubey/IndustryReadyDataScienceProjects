@@ -80,14 +80,21 @@ All the dependencies, set layer-by-layer and combine-ly called as Docker Image.
 
 ![](./images/normal_files/5_Difference_between_Docker_and_VM.png)
 
+<br>
+
 <style type="text/css">
+
 .tg  {border-collapse:;border-spacing:0;}
 .tg td{border-color:#fff;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:#fff;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-0lax{text-align:left;vertical-align:top}
+
 </style>
+
+<br>
+
 <table class="tg">
 <thead>
   <tr>
