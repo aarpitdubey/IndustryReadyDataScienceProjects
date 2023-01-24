@@ -96,11 +96,11 @@ All the dependencies, set layer-by-layer and combine-ly called as Docker Image.
   </tr>
   <tr>
     <td class="tg-0lax">2. Docker image is usually small in size(in MB). Docker is fast!</td>
-    <td class="tg-0lax">2. VM (Virtual Machine) is slow because the size of files are in GB, to large files as compare to Docker.</td>
+    <td class="tg-0lax">2. VM (Virtual Machine) is slow because the size of files are in GB, to0 large files as compare to Docker.</td>
   </tr>
   <tr>
+     <td>Docker is dependent on host OS to interact with hardware, for some application Compatibility issue may arises.</td>
     <td>VM can be install in any machine having any Operating system --> No Compatibility issue will arises.</td>
-    <td>Docker is dependent on host OS to interact with hardware, for some application Compatibility issue may arises.</td>
   </tr>
 </tbody>
 </table>
