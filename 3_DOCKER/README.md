@@ -105,6 +105,11 @@ All the dependencies, set layer-by-layer and combine-ly called as Docker Image.
 </tbody>
 </table>
 
+## Practical Implementation of Docker Commands:
+
+- ### docker --version and docker pull [docker image : dir/image_name]
+![](./images/gif_files/1_To_check_docker_version_and_docker_image_pulling_command.gif)
+
 ## Here are some commonly used Docker commands:
 
 1. ### ```docker run :``` Runs a command in a new container.
