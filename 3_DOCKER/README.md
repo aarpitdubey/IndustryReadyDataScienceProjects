@@ -110,6 +110,25 @@ All the dependencies, set layer-by-layer and combine-ly called as Docker Image.
 - ### docker --version and docker pull [docker image : dir/image_name]
 ![](./images/gif_files/1_To_check_docker_version_and_docker_image_pulling_command.gif)
 
+<br><br>
+
+- **docker run -d -p 80:80 docker/getting-started**
+
+![](./images/normal_files/6_docker_image_instance_running.PNG)
+
+- **docker ps**
+
+![](./images/normal_files/
+7_docker_ps_to_list_down_all_docker_containers.PNG)
+
+- **docker stop [name of container]**
+
+![](./images/normal_files/8_docker_stop_containerName_to_stop_specific_conatiner.PNG)
+
+<br><bt>
+
+![](./images/gif_files/2_Running_docker_image_and_container_checking_list_of_containers_and_stop_our_container.gif)
+
 ## Here are some commonly used Docker commands:
 
 1. ### ```docker run :``` Runs a command in a new container.
