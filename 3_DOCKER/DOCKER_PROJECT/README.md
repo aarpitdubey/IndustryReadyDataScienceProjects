@@ -48,3 +48,11 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
 ```
+
+## OPTIONAL STEPS:
+
+1. Create a new conda environment for provide proper environment, <br>to execute the app.py in your local machine. let's create a new environment "industryready" 
+
+- **conda create -n ENV_NAME**
+
+![](./images/1_conda_create_n_ENV.PNG)
