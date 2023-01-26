@@ -118,14 +118,13 @@ All the dependencies, set layer-by-layer and combine-ly called as Docker Image.
 
 - **docker ps**
 
-![](./images/normal_files/
-7_docker_ps_to_list_down_all_docker_containers.PNG)
+![](./images/normal_files/7_docker_ps_to_list_down_all_docker_containers.PNG)
 
 - **docker stop [name of container]**
 
-![](./images/normal_files/8_docker_stop_containerName_to_stop_specific_conatiner.PNG)
+ ![](./images/normal_files/8_docker_stop_containerName_to_stop_specific_conatiner.PNG)
 
-<br><bt>
+<br>
 
 ![](./images/gif_files/2_Running_docker_image_and_container_checking_list_of_containers_and_stop_our_container.gif)
 
