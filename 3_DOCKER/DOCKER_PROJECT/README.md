@@ -51,24 +51,32 @@ CMD ["python", "app.py"]
 
 ## OPTIONAL STEPS:
 
-1. Create a new conda environment for provide proper environment, <br>to execute the app.py in your local machine. let's create a new environment "industryready" 
+1. Create a new conda environment for provide proper environment, <br>to execute the **app.py** in your local machine. **let's create a new environment "industryready"** 
 
 - **conda create -n ENV_NAME**
 
 ![](./images/1_conda_create_n_ENV.PNG)
 
+2. Listing out all the conda environment.
+
 - **conda env list**
 
 ![](./images/2_conda_env_list.PNG)
 
+3. To activate the conda environment Here, in this case **environment name<br>(or) ENV_NAME** is "industryready"
+
 - **conda activate ENV_NAME**
 
 ![](./images/3_conda_activate_industryready.PNG)
+
+4. To deactivate that environment, use this command
 
 - **conda deactivate**
 
 ![](./images/4_conda_deactivate.PNG)
 
 <br>
+
+5. Doing all the above steps :
 
 ![](./images/gif/1_creating_conda_env.gif)
