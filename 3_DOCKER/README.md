@@ -107,10 +107,19 @@ All the dependencies, set layer-by-layer and combine-ly called as Docker Image.
 
 ## Practical Implementation of Docker Commands:
 
-- ### docker --version and docker pull [docker image : dir/image_name]
+- **docker --version**
+
+![](./images/normal_files/9_docker_version.PNG)
+
+- **docker pull [docker image : dir/image_name]**
+
+![](./images/normal_files/10_docker_pull_docker_image.PNG)
+
+<br>
+
 ![](./images/gif_files/1_To_check_docker_version_and_docker_image_pulling_command.gif)
 
-<br><br>
+<br>
 
 - **docker run -d -p 80:80 docker/getting-started**
 
