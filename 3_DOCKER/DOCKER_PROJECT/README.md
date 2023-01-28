@@ -80,3 +80,4 @@ CMD ["python", "app.py"]
 5. Doing all the above steps :
 
 ![](./images/gif/1_creating_conda_env.gif)
+
