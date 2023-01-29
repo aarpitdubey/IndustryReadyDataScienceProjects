@@ -81,3 +81,48 @@ CMD ["python", "app.py"]
 
 ![](./images/gif/1_creating_conda_env.gif)
 
+
+
+## Let's build our project docker image:
+
+1. To build docker image, use this command
+
+- **docker build -t docker-project .**
+
+![](./images/5_creating_custome_docker_image.PNG)
+
+this is docker image 
+
+![](./images/8_project_docker_img.PNG)
+
+2. Check our custome project docker image
+
+- **docker ps**
+
+![](./images/9_docker_ps_for_dockerProject.PNG)
+
+![](./images/6_created_docker_image.PNG)
+
+3. Run docker container
+
+- **docker run -d -p 5000:5000 docker-project**
+
+![](./images/7_created_docker_container.PNG)
+
+4. check whether docker container is running or not using **docker ps** command
+
+![](./images/gif/2_creating_docker_image.gif)
+
+5. **Completing the project**
+
+![](./images/gif/3_project_completed.gif)
+
+ **This is the output displayed from our custome docker image, docker container:**
+
+![](./images/11_completion_of_project.PNG)
+
+
+<br>Now, we created our own flask application and build our docker image and run docker container **successfully** getting the expected output further we can **push this image to docker hub** too.
+
+
+## <span align="center">Thank you</span> 
