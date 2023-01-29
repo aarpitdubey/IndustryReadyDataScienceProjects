@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'])
 
 def home():
-    return "Hello World"
+    return "Docker-Project : Hello World"
 
 
 if __name__ == '__main__':
