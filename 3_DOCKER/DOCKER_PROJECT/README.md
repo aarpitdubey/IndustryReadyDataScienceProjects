@@ -89,6 +89,8 @@ CMD ["python", "app.py"]
 
 - **docker build -t docker-project .**
 
+> Note: Here in image I previously created the docker image with name "welcome-app". You can choose any name you want to use but the output of building any docker image should be like this only.
+
 ![](./images/5_creating_custome_docker_image.PNG)
 
 this is docker image 
